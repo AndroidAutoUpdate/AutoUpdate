@@ -4,6 +4,11 @@ The replication package is created for the paper titled "AutoUpdate: Automatical
 
 ## Description
 
+## Dataset 
+Since there is no publicly-available datasets of code updates for Android apps, we construct a new dataset to evaluate the performance of automatically recommending code updates for Android apps.  We collect 209,346 pairs of updated methods from 3,195 open-source Android applications. 
+
+The datasets are publicly available at Zenodo [Link](https://zenodo.org/record/6538487).
+
 ## Gettting Started
 ### Prerequisite
 
