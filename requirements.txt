@@ -7,3 +7,4 @@ tensorflow-estimator==2.7.0
 tensorflow-gpu==2.7.0
 tensor2tensor==1.15.7
 subword-nmt==0.3.8
+tree-sitter=0.2.2
