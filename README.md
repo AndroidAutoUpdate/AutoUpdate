@@ -1,8 +1,8 @@
 # AutoUpdate
 The replication package is created for the paper titled "AutoUpdate: Automatically Recommend Code Updates for Android Apps"
-## Overview
+<!-- ## Overview
 
-## Description
+## Description -->
 
 ## Dataset 
 Since there is no publicly-available datasets of code updates for Android apps, we construct a new dataset to evaluate the performance of automatically recommending code updates for Android apps.  We collect 209,346 pairs of updated methods from 3,195 open-source Android applications. 
@@ -82,6 +82,7 @@ cd evaluation/
 #### Parameters
 - ``<generated_prediction_path>``: the path of the generated prediciton file by Transformer
 - ``<decoded_prediction_path>``: the path to save the decoded prediciton file
+- ``<beam_width>``: the number of generated sequences for each input instance (i.e., a method)
 
 #### (1) Decoding generated predictions
 This script will convert subwords into code.
@@ -94,5 +95,5 @@ python code_decode.py <generated_prediction_path> <decoded_prediction_path>
 This script will calculate the evaluation metrics (i.e., #perfect prediction, accuracy, CodeBLEU) for the predictions.
 
 ```
-python code_decode.py <decoded_prediction_path> <reference_path> <beam_size>
+python code_decode.py <decoded_prediction_path> <reference_path> <beam_width>
 ```
