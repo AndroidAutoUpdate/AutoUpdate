@@ -29,7 +29,7 @@ cd model/
 - ``<tokenized_data_dir>``: the directory for storing the subword tokenized data with the same structure as above.
 - ``<num_merges>``: The number of merge operations
 - ``<binary_data_dir>``: the directory for storing the binary data for tensor2tensor
-- ``<hyper-parameter_setting>: the setting name of the hyper-parameters defined in ``AutoTransform/AutoTransform_problem.py``
+- ``<hyper-parameter_setting>: the setting name of the hyper-parameters defined in ``auto_upate/AutoUpdate.py``
 - ``<model_dir>``: the directory for saving the model
 - ``<train_step>``: the number of train steps to train model
 - ``<input_file>``: the text file of the before version in the testing data
